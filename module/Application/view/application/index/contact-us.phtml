@@ -1,0 +1,57 @@
+<?php
+$title = 'Contact Us';
+$this->headTitle($title);
+//$this->inlineScript()->appendFile($this->basePath() . '/assets/js/inner.js', 'text/javascript');
+$this->inlineScript()->appendFile($this->basePath() . '/assets/js/contact-us.js');
+
+echo $this->partial('layout/navigation');
+?>
+	<div class="container">
+		<div class="row-fluid">
+		
+			<h2><center>Contact Us</center></h2>
+			<p><center>If you have any questions or queries please don't hesitate to contact us.</center></p>
+			<hr />
+			
+			<section class="row-fluid">
+		      	<div class="span6 offset3 well">
+				    <div class="alert alert-info" id="contact-msg" style="display: none;"></div>
+				    <form class="form-vertical" id="sendForm" name="sendForm" onsubmit="return false">
+					    <div class="control-group">
+						    <label class="control-label" for="Fullname">Fullname</label>
+						    <input type="text" id="fullname" name="fullname" class="input-block-level required" autofocus>
+						    
+					    </div>
+					    <div class="control-group">
+							<label class="control-label" for="Email">Email</label>
+							<div class="controls">
+							<input type="text" id="email" name="email" class="input-block-level required">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="Contact">Contact Number</label>
+							<div class="controls">
+							<input type="text" id="contact" name="contact" class="input-block-level required">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="Subject">Subject</label>
+							<div class="controls">
+							<input type="text" id="subject" name="subject" class="input-block-level">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="Message">Message</label>
+							<div class="controls">
+							<textarea name="message"></textarea>
+							</div>
+						</div>
+				    	<p><input name="submit" class="btn btn-large btn-primary sendBtn" type="submit" value="Submit" /></p>
+					    
+				    </form>
+		  		</div>
+		    </section>
+			
+		</div>
+		
+	</div>

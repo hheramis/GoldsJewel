@@ -1,0 +1,70 @@
+.splash-features {
+    box-shadow: 1px 3px 5px #CCCCCC;
+    margin-bottom: 20px;
+    min-height: 330px;
+    overflow: hidden;
+    position: relative;
+    top: -20px;
+}
+.splash-features > img {
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.featurette-heading {
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+footer {
+    background-color: #F5F5F5;
+    margin-top: 70px;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    color: #c9c9c9;
+   	font-size: 13px;
+}
+footer p {
+	text-align: center;
+	font-size: 12px;
+}
+nav ul.footer-nav {
+	margin: 30px auto 16px;
+	text-align: center;
+}
+.footer-nav li {
+	display: inline;
+	margin: 4px 6px;
+	padding: 0 6px;
+}
+.footer-nav li a {
+	text-decoration: none;
+	color: #898989;
+}
+.footer-nav li a:hover {
+	text-decoration: none;
+	color: #c9c9c9;
+}
+.lead-check {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.lead-check > img {
+	margin-right: 7px;
+}
+
+.input-large, textarea {
+    width: 97%;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    height: auto;
+    padding: 4px 6px;
+}
+
